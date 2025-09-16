@@ -1,7 +1,6 @@
 # 0x403 - HTTP 403 Forbidden Bypass Testing Tool
 
 ![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Security](https://img.shields.io/badge/security-pentesting-red.svg)
 
 A comprehensive Python tool designed for security researchers, penetration testers, and bug bounty hunters to test various HTTP 403 Forbidden bypass techniques.
@@ -175,10 +174,6 @@ Found a bug? Please open an issue with:
 - Command used
 - Expected vs actual behavior
 - Error messages (if any)
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
