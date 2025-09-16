@@ -181,14 +181,8 @@ Found a bug? Please open an issue with:
 - Inspired by various 403 bypass techniques shared by security researchers
 - Built with Python and love for the cybersecurity community
 
-## 📊 Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/0x403)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/0x403)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/0x403)
-
 ---
 
-**Made with ❤️ for the cybersecurity community**
+**Made with 0xLpv3r for the cybersecurity community**
 
 **Happy Bug Hunting! 🐛🔍**
