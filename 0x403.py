@@ -2,6 +2,7 @@
 """
 0x403 - HTTP 403 Forbidden Bypass Testing Tool
 For authorized penetration testing and bug bounty hunting only.
+                                                  by 0xLpv3r v1
 """
 
 import requests

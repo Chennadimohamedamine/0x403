@@ -38,7 +38,7 @@ A comprehensive Python tool designed for security researchers, penetration teste
 
 ### Prerequisites
 ```bash
-pip install requests colorama
+pip install -r requirements.txt
 ```
 
 ### Clone the Repository
