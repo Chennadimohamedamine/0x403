@@ -9,12 +9,22 @@ import requests
 import urllib.parse
 import sys
 import time
-from urllib3.packages.urllib3.exceptions import InsecureRequestWarning
 import argparse
-from colorama import Colorama, Fore, Style, init
+from colorama import Fore, Style, init
 
 # Disable SSL warnings for testing
-requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+try:
+    from urllib3.exceptions import InsecureRequestWarning
+    requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+except ImportError:
+    # Fallback for older urllib3 versions
+    try:
+        from urllib3.packages.urllib3.exceptions import InsecureRequestWarning
+        requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+    except ImportError:
+        # If neither works, just disable all urllib3 warnings
+        import urllib3
+        urllib3.disable_warnings()
 init(autoreset=True)
 
 class BypassTester:
